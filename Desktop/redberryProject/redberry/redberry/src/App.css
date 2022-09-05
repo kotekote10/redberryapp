@@ -749,6 +749,9 @@ html * {
 .onetwo {
   display: none;
 }
+.mobback {
+  display: none;
+}
 
 @media (max-width: 390px) {
   .starter-page {
@@ -954,17 +957,6 @@ html * {
     background: #f7f7f7;
   }
 
-  .form2-container {
-    position: absolute;
-    height: 1571px;
-    left: 347px;
-    right: 347px;
-    top: 157px;
-
-    background: #ffffff;
-    border-radius: 18px;
-  }
-
   .redlogo2 {
     position: absolute;
     width: 85px;
@@ -984,12 +976,23 @@ html * {
     display: none;
   }
 
+  .form2-container {
+    position: relative;
+    right: 500px;
+    width: 2000px;
+    height: 2000px;
+
+    top: 157px;
+
+    background: none;
+    border-radius: 18px;
+  }
   .submit-photo {
     box-sizing: border-box;
     height: 244px;
     width: 358px;
 
-    position: absolute;
+    position: relative;
 
     background: #f7f7f7;
 
@@ -1004,9 +1007,7 @@ html * {
     box-sizing: border-box;
     height: 244px;
     width: 358px;
-    position: absolute;
-    right: 1030px;
-    top: -70px;
+    position: relative;
 
     background: #fff1f1;
     border: 2px dashed #e52f2f;
@@ -1096,19 +1097,26 @@ html * {
     width: 700px;
   }
   .form2 {
-    position: relative;
+    position: absolute;
+    right: 500px;
     width: 390px;
-    height: 1400px;
+    height: 1811px;
 
     display: flex;
     flex-direction: column;
 
     justify-content: space-between;
+    gap: 40px;
+  }
+  .page2 {
+    position: relative;
+    right: 510px;
+    bottom: 170px;
   }
 
   .select-brand {
     position: relative;
-
+    bottom: 10px;
     width: 358px;
     height: 60px;
     background: #ebebeb;
@@ -1118,7 +1126,7 @@ html * {
 
   .select-cpu {
     position: relative;
-    bottom: 1px;
+    bottom: 70px;
     width: 358px;
     height: 60px;
     background: #ebebeb;
@@ -1129,7 +1137,7 @@ html * {
     width: 358px;
     height: 60px;
     border: 1.8px solid #8ac0e2;
-
+    position: relative;
     border-radius: 8px;
   }
   .laptop-name fieldset {
@@ -1139,7 +1147,6 @@ html * {
   .laptop-namebrand {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 
   .hrbellow-laptop-name {
@@ -1166,6 +1173,9 @@ html * {
     height: 60px;
     border: 1.8px solid #8ac0e2;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
   }
   .cpu-text fieldset {
     border: 1.8px solid #8ac0e2;
@@ -1174,7 +1184,6 @@ html * {
   .cpu-text-container {
     position: relative;
     bottom: 59px;
-    height: 60px;
   }
 
   .cpu-info {

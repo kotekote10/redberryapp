@@ -27,7 +27,7 @@ export default function ItemDetails() {
       <img src={laptopinfo} className="details-header" />
       <div className="details">
         <div className="details-first-row">
-          <img className="laptop-image" />
+          <img src={listItem.laptop.image} className="laptop-image" />
           <div className="stuff-details-key">
             <h3>სახელი:</h3>
             <h3>თიმი:</h3>
