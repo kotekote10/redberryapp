@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/redberryapp/static/css/main.c8866f49.css",
-    "main.js": "/redberryapp/static/js/main.c50fb46b.js",
-    "static/media/starterpage.png": "/redberryapp/static/media/starterpage.409ed3ffbc2fa0f86c13.png",
-    "static/media/phonestart.png": "/redberryapp/static/media/phonestart.496a6b2cc07fba7e0e0a.png",
-    "static/media/confetti.png": "/redberryapp/static/media/confetti.5efc2ee01a7f98133057.png",
-    "index.html": "/redberryapp/index.html",
-    "main.c8866f49.css.map": "/redberryapp/static/css/main.c8866f49.css.map",
-    "main.c50fb46b.js.map": "/redberryapp/static/js/main.c50fb46b.js.map"
+    "main.css": "/kotekote10/redberryapp/static/css/main.8964b3e8.css",
+    "main.js": "/kotekote10/redberryapp/static/js/main.9d686d75.js",
+    "static/media/starterpage.png": "/kotekote10/redberryapp/static/media/starterpage.409ed3ffbc2fa0f86c13.png",
+    "static/media/phonestart.png": "/kotekote10/redberryapp/static/media/phonestart.496a6b2cc07fba7e0e0a.png",
+    "static/media/confetti.png": "/kotekote10/redberryapp/static/media/confetti.5efc2ee01a7f98133057.png",
+    "index.html": "/kotekote10/redberryapp/index.html",
+    "main.8964b3e8.css.map": "/kotekote10/redberryapp/static/css/main.8964b3e8.css.map",
+    "main.9d686d75.js.map": "/kotekote10/redberryapp/static/js/main.9d686d75.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8866f49.css",
-    "static/js/main.c50fb46b.js"
+    "static/css/main.8964b3e8.css",
+    "static/js/main.9d686d75.js"
   ]
 }
